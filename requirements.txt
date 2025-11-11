@@ -1,0 +1,33 @@
+# Core Web & Real-time
+Flask==3.0.3
+Flask-SocketIO==5.3.6
+python-socketio==5.11.4
+eventlet==0.36.1
+
+# Deep Learning (from scratch models)
+torch==2.4.1
+torchvision==0.19.1  # optional, but safe to include
+tensorflow==2.17.0
+
+# NLP & Embeddings
+sentence-transformers==3.2.0
+faiss-cpu==1.9.0
+
+# LangChain Ecosystem (RAG + LLM)
+langchain==0.3.4
+langchain-community==0.3.3
+langchain-openai==0.2.2
+langchain-core==0.3.12
+
+# Optional: Local LLM via Ollama (uncomment if not using OpenAI)
+# langchain-ollama==0.1.2
+# ollama==0.3.3
+
+# Data & Viz
+pandas==2.2.3
+numpy==2.1.2
+matplotlib==3.9.2
+seaborn==0.13.2
+
+# Utilities
+python-dotenv==1.0.1   # for loading OPENAI_API_KEY from .env
