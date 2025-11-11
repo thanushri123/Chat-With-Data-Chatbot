@@ -1,0 +1,21 @@
+text,label
+show me sales by region,show_chart
+what is total sales,answer_question
+give me a pie chart of products,show_chart
+average units per region,answer_question
+line chart of sales over time,show_chart
+sum of units in North,answer_question
+heatmap of sales by region and product,show_chart
+count of transactions,answer_question
+bar chart of sales by product,show_chart
+total revenue,answer_question
+show me a bar chart of units by region,show_chart
+what is the average sales,answer_question
+pie chart of units by product,show_chart
+total sales in South,answer_question
+line chart of units over time,show_chart
+sales by product,show_chart
+average units,answer_question
+show me a heatmap,show_chart
+what is the sum of sales,answer_question
+bar chart of sales by region,show_chart
