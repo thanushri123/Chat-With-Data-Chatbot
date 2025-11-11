@@ -1,6 +1,6 @@
 # models/intent_model.py
 """
-A **tiny** CNN that tells us whether the user wants a chart or a plain answer.
+A tiny CNN that tells us whether the user wants a chart or a plain answer.
 Everything is built from scratch – no pretrained embeddings.
 """
 
