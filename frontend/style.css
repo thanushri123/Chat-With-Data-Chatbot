@@ -1,0 +1,21 @@
+/* static/style.css – same visual, just tidier comments */
+* { box-sizing:border-box; margin:0; padding:0; font-family:system-ui, sans-serif; }
+body { background:#f4f6f9; }
+
+.chat-container { max-width:720px; margin:2rem auto; background:#fff; border-radius:12px;
+  box-shadow:0 4px 20px rgba(0,0,0,.08); overflow:hidden; display:flex; flex-direction:column; height:80vh; }
+
+.messages { flex:1; padding:1rem; overflow-y:auto; display:flex; flex-direction:column; gap:.8rem; }
+.message { max-width:80%; padding:.7rem 1rem; border-radius:18px; line-height:1.4; }
+.user { align-self:flex-end; background:#007bff; color:#fff; }
+.bot  { align-self:flex-start; background:#e9ecef; color:#212529; }
+.bot img { max-width:100%; border-radius:8px; margin-top:.5rem; }
+
+.input-area { display:flex; border-top:1px solid #ddd; padding:.5rem; }
+#msgInput { flex:1; padding:.6rem 1rem; border:1px solid #ccc; border-radius:20px; outline:none; }
+#sendBtn { margin-left:.5rem; padding:0 1.2rem; background:#007bff; color:#fff; border:none; border-radius:20px; cursor:pointer; }
+#sendBtn:hover { background:#0056b3; }
+
+.typing { align-self:flex-start; }
+.typing::after { content:"..."; animation:dots 1.5s infinite; }
+@keyframes dots { 0%,20%{content:""} 40%{content:"."} 60%{content:".."} 80%,100%{content:"..."} }
